@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1951CBBD1CD19C200078AEAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1951CBBC1CD19C200078AEAA /* AppDelegate.swift */; };
+		1951CBBF1CD19C200078AEAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1951CBBE1CD19C200078AEAA /* ViewController.swift */; };
+		1951CBC21CD19C200078AEAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1951CBC01CD19C200078AEAA /* Main.storyboard */; };
+		1951CBC41CD19C200078AEAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1951CBC31CD19C200078AEAA /* Assets.xcassets */; };
+		1951CBC71CD19C200078AEAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1951CBC51CD19C200078AEAA /* LaunchScreen.storyboard */; };
+		1951CBD21CD19C200078AEAA /* CamnosaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1951CBD11CD19C200078AEAA /* CamnosaTests.swift */; };
+		1951CBDD1CD19C200078AEAA /* CamnosaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1951CBDC1CD19C200078AEAA /* CamnosaUITests.swift */; };
+		197EAEE21D2DE1FA00618ED8 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197EAEE11D2DE1FA00618ED8 /* SwiftyJSON.swift */; };
+		197EAEE61D2DE45100618ED8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197EAEE51D2DE45100618ED8 /* MainViewController.swift */; };
+		197EAEE91D2DE4D200618ED8 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197EAEE81D2DE4D200618ED8 /* API.swift */; };
+		199F33831DCCFA990053D8C0 /* TiposCambioList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199F33821DCCFA990053D8C0 /* TiposCambioList.swift */; };
+		19A9810C1DB98BD700895284 /* ConversorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A9810B1DB98BD700895284 /* ConversorViewController.swift */; };
+		19A9810E1DB9C64100895284 /* UITextFieldWithPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A9810D1DB9C64100895284 /* UITextFieldWithPickerView.swift */; };
+		19A981101DB9DABC00895284 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 19A9810F1DB9DABC00895284 /* GoogleService-Info.plist */; };
+		19ADE33A1DCBA7170005CCA5 /* HistoricoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19ADE3391DCBA7170005CCA5 /* HistoricoViewController.swift */; };
+		19E36D1A1DB90BB50084B559 /* Moneda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E36D191DB90BB50084B559 /* Moneda.swift */; };
+		19E36D201DB953EA0084B559 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E36D1F1DB953EA0084B559 /* CustomTableViewCell.swift */; };
+		19E36D221DB96BF10084B559 /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E36D211DB96BF10084B559 /* Misc.swift */; };
+		19F624371D2DF58D006D1ADA /* MonedasList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F624361D2DF58D006D1ADA /* MonedasList.swift */; };
+		19F6243A1D2DF5DC006D1ADA /* TipoCambio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F624391D2DF5DC006D1ADA /* TipoCambio.swift */; };
+		19F6243D1D2DF918006D1ADA /* APIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F6243C1D2DF918006D1ADA /* APIController.swift */; };
+		19F6243F1D2DFAA3006D1ADA /* LoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F6243E1D2DFAA3006D1ADA /* LoadingIndicator.swift */; };
+		19F624411D2DFADF006D1ADA /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F624401D2DFADF006D1ADA /* Strings.swift */; };
+		7C5DDB09C0E9640DF5A9C820 /* Pods_Camnosa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C1F3739E6595932308D990A /* Pods_Camnosa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1951CBCE1CD19C200078AEAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1951CBB11CD19C200078AEAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1951CBB81CD19C200078AEAA;
+			remoteInfo = Camnosa;
+		};
+		1951CBD91CD19C200078AEAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1951CBB11CD19C200078AEAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1951CBB81CD19C200078AEAA;
+			remoteInfo = Camnosa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C1F3739E6595932308D990A /* Pods_Camnosa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Camnosa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1951CBB91CD19C200078AEAA /* Camnosa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Camnosa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1951CBBC1CD19C200078AEAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1951CBBE1CD19C200078AEAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1951CBC11CD19C200078AEAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1951CBC31CD19C200078AEAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1951CBC61CD19C200078AEAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1951CBC81CD19C200078AEAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1951CBCD1CD19C200078AEAA /* CamnosaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CamnosaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1951CBD11CD19C200078AEAA /* CamnosaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamnosaTests.swift; sourceTree = "<group>"; };
+		1951CBD31CD19C200078AEAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1951CBD81CD19C200078AEAA /* CamnosaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CamnosaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1951CBDC1CD19C200078AEAA /* CamnosaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamnosaUITests.swift; sourceTree = "<group>"; };
+		1951CBDE1CD19C200078AEAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		197EAEE11D2DE1FA00618ED8 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		197EAEE51D2DE45100618ED8 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		197EAEE81D2DE4D200618ED8 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		199F33821DCCFA990053D8C0 /* TiposCambioList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TiposCambioList.swift; sourceTree = "<group>"; };
+		19A9810B1DB98BD700895284 /* ConversorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversorViewController.swift; sourceTree = "<group>"; };
+		19A9810D1DB9C64100895284 /* UITextFieldWithPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldWithPickerView.swift; sourceTree = "<group>"; };
+		19A9810F1DB9DABC00895284 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		19ADE3391DCBA7170005CCA5 /* HistoricoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoricoViewController.swift; sourceTree = "<group>"; };
+		19E36D191DB90BB50084B559 /* Moneda.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Moneda.swift; sourceTree = "<group>"; };
+		19E36D1F1DB953EA0084B559 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		19E36D211DB96BF10084B559 /* Misc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Misc.swift; sourceTree = "<group>"; };
+		19F624361D2DF58D006D1ADA /* MonedasList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonedasList.swift; sourceTree = "<group>"; };
+		19F624391D2DF5DC006D1ADA /* TipoCambio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipoCambio.swift; sourceTree = "<group>"; };
+		19F6243C1D2DF918006D1ADA /* APIController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIController.swift; sourceTree = "<group>"; };
+		19F6243E1D2DFAA3006D1ADA /* LoadingIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingIndicator.swift; sourceTree = "<group>"; };
+		19F624401D2DFADF006D1ADA /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		5B4E4403B61B64E30D5B5D44 /* Pods-Camnosa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Camnosa.release.xcconfig"; path = "Pods/Target Support Files/Pods-Camnosa/Pods-Camnosa.release.xcconfig"; sourceTree = "<group>"; };
+		C0BCFB10012520C4158DA60C /* Pods-Camnosa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Camnosa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Camnosa/Pods-Camnosa.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1951CBB61CD19C200078AEAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C5DDB09C0E9640DF5A9C820 /* Pods_Camnosa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1951CBCA1CD19C200078AEAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1951CBD51CD19C200078AEAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1951CBB01CD19C200078AEAA = {
+			isa = PBXGroup;
+			children = (
+				1951CBBB1CD19C200078AEAA /* Camnosa */,
+				1951CBD01CD19C200078AEAA /* CamnosaTests */,
+				1951CBDB1CD19C200078AEAA /* CamnosaUITests */,
+				1951CBBA1CD19C200078AEAA /* Products */,
+				7EEF41EAE6375B58A1C710E2 /* Pods */,
+				C3A141BF558F447F4687469E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1951CBBA1CD19C200078AEAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1951CBB91CD19C200078AEAA /* Camnosa.app */,
+				1951CBCD1CD19C200078AEAA /* CamnosaTests.xctest */,
+				1951CBD81CD19C200078AEAA /* CamnosaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1951CBBB1CD19C200078AEAA /* Camnosa */ = {
+			isa = PBXGroup;
+			children = (
+				19E36D1E1DB9538E0084B559 /* CustomControl */,
+				19F6243B1D2DF90B006D1ADA /* Controllers */,
+				19F624381D2DF5C9006D1ADA /* Models */,
+				19F624351D2DF571006D1ADA /* Lists */,
+				197EAEE71D2DE4C600618ED8 /* Utils */,
+				197EAEE41D2DE25600618ED8 /* Libs */,
+				197EAEE31D2DE22900618ED8 /* ViewControllers */,
+				1951CBBC1CD19C200078AEAA /* AppDelegate.swift */,
+				1951CBBE1CD19C200078AEAA /* ViewController.swift */,
+				1951CBC01CD19C200078AEAA /* Main.storyboard */,
+				1951CBC31CD19C200078AEAA /* Assets.xcassets */,
+				1951CBC51CD19C200078AEAA /* LaunchScreen.storyboard */,
+				1951CBC81CD19C200078AEAA /* Info.plist */,
+				19A9810F1DB9DABC00895284 /* GoogleService-Info.plist */,
+			);
+			path = Camnosa;
+			sourceTree = "<group>";
+		};
+		1951CBD01CD19C200078AEAA /* CamnosaTests */ = {
+			isa = PBXGroup;
+			children = (
+				1951CBD11CD19C200078AEAA /* CamnosaTests.swift */,
+				1951CBD31CD19C200078AEAA /* Info.plist */,
+			);
+			path = CamnosaTests;
+			sourceTree = "<group>";
+		};
+		1951CBDB1CD19C200078AEAA /* CamnosaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1951CBDC1CD19C200078AEAA /* CamnosaUITests.swift */,
+				1951CBDE1CD19C200078AEAA /* Info.plist */,
+			);
+			path = CamnosaUITests;
+			sourceTree = "<group>";
+		};
+		197EAEE31D2DE22900618ED8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				197EAEE51D2DE45100618ED8 /* MainViewController.swift */,
+				19A9810B1DB98BD700895284 /* ConversorViewController.swift */,
+				19ADE3391DCBA7170005CCA5 /* HistoricoViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		197EAEE41D2DE25600618ED8 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				197EAEE11D2DE1FA00618ED8 /* SwiftyJSON.swift */,
+				19F6243E1D2DFAA3006D1ADA /* LoadingIndicator.swift */,
+			);
+			name = Libs;
+			sourceTree = "<group>";
+		};
+		197EAEE71D2DE4C600618ED8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				197EAEE81D2DE4D200618ED8 /* API.swift */,
+				19F624401D2DFADF006D1ADA /* Strings.swift */,
+				19E36D211DB96BF10084B559 /* Misc.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		19E36D1E1DB9538E0084B559 /* CustomControl */ = {
+			isa = PBXGroup;
+			children = (
+				19E36D1F1DB953EA0084B559 /* CustomTableViewCell.swift */,
+				19A9810D1DB9C64100895284 /* UITextFieldWithPickerView.swift */,
+			);
+			name = CustomControl;
+			sourceTree = "<group>";
+		};
+		19F624351D2DF571006D1ADA /* Lists */ = {
+			isa = PBXGroup;
+			children = (
+				19F624361D2DF58D006D1ADA /* MonedasList.swift */,
+				199F33821DCCFA990053D8C0 /* TiposCambioList.swift */,
+			);
+			name = Lists;
+			sourceTree = "<group>";
+		};
+		19F624381D2DF5C9006D1ADA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				19F624391D2DF5DC006D1ADA /* TipoCambio.swift */,
+				19E36D191DB90BB50084B559 /* Moneda.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		19F6243B1D2DF90B006D1ADA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				19F6243C1D2DF918006D1ADA /* APIController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		7EEF41EAE6375B58A1C710E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0BCFB10012520C4158DA60C /* Pods-Camnosa.debug.xcconfig */,
+				5B4E4403B61B64E30D5B5D44 /* Pods-Camnosa.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C3A141BF558F447F4687469E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C1F3739E6595932308D990A /* Pods_Camnosa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1951CBB81CD19C200078AEAA /* Camnosa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1951CBE11CD19C200078AEAA /* Build configuration list for PBXNativeTarget "Camnosa" */;
+			buildPhases = (
+				88E69807808778FCC68C3C2C /* [CP] Check Pods Manifest.lock */,
+				1951CBB51CD19C200078AEAA /* Sources */,
+				1951CBB61CD19C200078AEAA /* Frameworks */,
+				1951CBB71CD19C200078AEAA /* Resources */,
+				616BDA06E6A3A0BFB686C99D /* [CP] Embed Pods Frameworks */,
+				79617CFAD22B1605FC5841D6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Camnosa;
+			productName = Camnosa;
+			productReference = 1951CBB91CD19C200078AEAA /* Camnosa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1951CBCC1CD19C200078AEAA /* CamnosaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1951CBE41CD19C200078AEAA /* Build configuration list for PBXNativeTarget "CamnosaTests" */;
+			buildPhases = (
+				1951CBC91CD19C200078AEAA /* Sources */,
+				1951CBCA1CD19C200078AEAA /* Frameworks */,
+				1951CBCB1CD19C200078AEAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1951CBCF1CD19C200078AEAA /* PBXTargetDependency */,
+			);
+			name = CamnosaTests;
+			productName = CamnosaTests;
+			productReference = 1951CBCD1CD19C200078AEAA /* CamnosaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1951CBD71CD19C200078AEAA /* CamnosaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1951CBE71CD19C200078AEAA /* Build configuration list for PBXNativeTarget "CamnosaUITests" */;
+			buildPhases = (
+				1951CBD41CD19C200078AEAA /* Sources */,
+				1951CBD51CD19C200078AEAA /* Frameworks */,
+				1951CBD61CD19C200078AEAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1951CBDA1CD19C200078AEAA /* PBXTargetDependency */,
+			);
+			name = CamnosaUITests;
+			productName = CamnosaUITests;
+			productReference = 1951CBD81CD19C200078AEAA /* CamnosaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1951CBB11CD19C200078AEAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Sifen;
+				TargetAttributes = {
+					1951CBB81CD19C200078AEAA = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 3WK5EMDLDL;
+						LastSwiftMigration = 0810;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					1951CBCC1CD19C200078AEAA = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = TR3V75F7WC;
+						LastSwiftMigration = 0810;
+						TestTargetID = 1951CBB81CD19C200078AEAA;
+					};
+					1951CBD71CD19C200078AEAA = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = TR3V75F7WC;
+						LastSwiftMigration = 0810;
+						TestTargetID = 1951CBB81CD19C200078AEAA;
+					};
+				};
+			};
+			buildConfigurationList = 1951CBB41CD19C200078AEAA /* Build configuration list for PBXProject "Camnosa" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1951CBB01CD19C200078AEAA;
+			productRefGroup = 1951CBBA1CD19C200078AEAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1951CBB81CD19C200078AEAA /* Camnosa */,
+				1951CBCC1CD19C200078AEAA /* CamnosaTests */,
+				1951CBD71CD19C200078AEAA /* CamnosaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1951CBB71CD19C200078AEAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1951CBC71CD19C200078AEAA /* LaunchScreen.storyboard in Resources */,
+				19A981101DB9DABC00895284 /* GoogleService-Info.plist in Resources */,
+				1951CBC41CD19C200078AEAA /* Assets.xcassets in Resources */,
+				1951CBC21CD19C200078AEAA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1951CBCB1CD19C200078AEAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1951CBD61CD19C200078AEAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		616BDA06E6A3A0BFB686C99D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Camnosa/Pods-Camnosa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79617CFAD22B1605FC5841D6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Camnosa/Pods-Camnosa-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88E69807808778FCC68C3C2C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1951CBB51CD19C200078AEAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19F6243F1D2DFAA3006D1ADA /* LoadingIndicator.swift in Sources */,
+				19A9810E1DB9C64100895284 /* UITextFieldWithPickerView.swift in Sources */,
+				197EAEE21D2DE1FA00618ED8 /* SwiftyJSON.swift in Sources */,
+				19F624411D2DFADF006D1ADA /* Strings.swift in Sources */,
+				19F6243A1D2DF5DC006D1ADA /* TipoCambio.swift in Sources */,
+				1951CBBF1CD19C200078AEAA /* ViewController.swift in Sources */,
+				19E36D1A1DB90BB50084B559 /* Moneda.swift in Sources */,
+				1951CBBD1CD19C200078AEAA /* AppDelegate.swift in Sources */,
+				19F6243D1D2DF918006D1ADA /* APIController.swift in Sources */,
+				197EAEE61D2DE45100618ED8 /* MainViewController.swift in Sources */,
+				19F624371D2DF58D006D1ADA /* MonedasList.swift in Sources */,
+				19ADE33A1DCBA7170005CCA5 /* HistoricoViewController.swift in Sources */,
+				19A9810C1DB98BD700895284 /* ConversorViewController.swift in Sources */,
+				19E36D221DB96BF10084B559 /* Misc.swift in Sources */,
+				197EAEE91D2DE4D200618ED8 /* API.swift in Sources */,
+				199F33831DCCFA990053D8C0 /* TiposCambioList.swift in Sources */,
+				19E36D201DB953EA0084B559 /* CustomTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1951CBC91CD19C200078AEAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1951CBD21CD19C200078AEAA /* CamnosaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1951CBD41CD19C200078AEAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1951CBDD1CD19C200078AEAA /* CamnosaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1951CBCF1CD19C200078AEAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1951CBB81CD19C200078AEAA /* Camnosa */;
+			targetProxy = 1951CBCE1CD19C200078AEAA /* PBXContainerItemProxy */;
+		};
+		1951CBDA1CD19C200078AEAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1951CBB81CD19C200078AEAA /* Camnosa */;
+			targetProxy = 1951CBD91CD19C200078AEAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1951CBC01CD19C200078AEAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1951CBC11CD19C200078AEAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1951CBC51CD19C200078AEAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1951CBC61CD19C200078AEAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1951CBDF1CD19C200078AEAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1951CBE01CD19C200078AEAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1951CBE21CD19C200078AEAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0BCFB10012520C4158DA60C /* Pods-Camnosa.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Camnosa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.camnosa.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1951CBE31CD19C200078AEAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B4E4403B61B64E30D5B5D44 /* Pods-Camnosa.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Camnosa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.camnosa.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1951CBE51CD19C200078AEAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CamnosaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.camnosa.CamnosaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Camnosa.app/Camnosa";
+			};
+			name = Debug;
+		};
+		1951CBE61CD19C200078AEAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CamnosaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.camnosa.CamnosaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Camnosa.app/Camnosa";
+			};
+			name = Release;
+		};
+		1951CBE81CD19C200078AEAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CamnosaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.camnosa.CamnosaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Camnosa;
+			};
+			name = Debug;
+		};
+		1951CBE91CD19C200078AEAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CamnosaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.camnosa.CamnosaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Camnosa;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1951CBB41CD19C200078AEAA /* Build configuration list for PBXProject "Camnosa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1951CBDF1CD19C200078AEAA /* Debug */,
+				1951CBE01CD19C200078AEAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1951CBE11CD19C200078AEAA /* Build configuration list for PBXNativeTarget "Camnosa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1951CBE21CD19C200078AEAA /* Debug */,
+				1951CBE31CD19C200078AEAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1951CBE41CD19C200078AEAA /* Build configuration list for PBXNativeTarget "CamnosaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1951CBE51CD19C200078AEAA /* Debug */,
+				1951CBE61CD19C200078AEAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1951CBE71CD19C200078AEAA /* Build configuration list for PBXNativeTarget "CamnosaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1951CBE81CD19C200078AEAA /* Debug */,
+				1951CBE91CD19C200078AEAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1951CBB11CD19C200078AEAA /* Project object */;
+}

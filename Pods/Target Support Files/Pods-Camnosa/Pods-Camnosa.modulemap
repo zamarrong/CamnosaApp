@@ -1,0 +1,6 @@
+framework module Pods_Camnosa {
+  umbrella header "Pods-Camnosa-umbrella.h"
+
+  export *
+  module * { export * }
+}
